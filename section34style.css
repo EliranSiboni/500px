@@ -1,0 +1,35 @@
+
+.section3{
+	width: 100%;
+	padding-top: 10rem;
+	padding-bottom: 0;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+    border-bottom: 1px solid lightgrey;
+
+}
+.joinusLast{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding-top: 5rem;
+	padding: 2rem;
+}
+#joinusLastButton{
+	width: 15%;
+	padding: 0.7rem;
+	border-radius: 20rem;
+	font-size: 1.5rem;
+	color: white;
+}
+.section4{
+	width: 100%;
+	padding-top: 20rem;
+	padding-bottom:  20rem;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	border-bottom: 1px solid lightgrey;
+
+}

@@ -1,0 +1,175 @@
+body{
+	margin:0;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	font-family: Arial, Helvetica, Geneva, sans-serif;
+}
+
+header{
+	width:100%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	background-image:url(headerBackgroungimg.jpg) ;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: white;
+	position: relative;
+	padding-bottom: 20rem;
+
+}
+.headerBar{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.mobileHeaderBar{
+	display: none;
+
+}
+.leftGrid{
+	width: 60%;
+	display: grid;
+    grid-template-columns: 20% 10% 10% 10% 15% 15%;
+    align-items: center;
+}
+.rightGrid{
+	width: 20%;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	align-items: center;
+}
+h1{
+	width:100%;
+	text-align: center;
+	padding-bottom: 2rem;
+	padding-top: 5%;
+	font-size: 3rem;
+	font-weight: 200;
+
+}
+.h1span{
+	width: 100%;
+	text-align: center;
+	display: block;
+	padding-bottom: 2rem;
+	font-size: 1.5rem;
+
+
+}
+.buttonHeader{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+button {
+    background-color: #0099e5;
+    border: 2px solid #0099e5;
+    border-radius: 100px;
+    color: white;
+    padding: 1rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.8rem;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 1s;
+}
+button:hover{
+	color:#a7bfe8;
+	border-color: #a7bfe8;
+}
+
+.headerHerf{
+	text-decoration: none;
+	color: white;
+	font-size: 1.5rem;
+}
+.headerHerf:hover{
+	color: white;
+	text-decoration:none;
+}
+.CopyrightAtribute{
+	display: flex;
+	justify-content: flex-end;
+	align-content: flex-end;
+	flex-wrap: nowrap;
+	padding-right: 1rem;
+
+
+}
+
+#CopyrightAtributeText{
+	display: none;
+
+
+}
+.CopyrightAtribute:hover #CopyrightAtributeText{
+	display: block;
+	
+}
+
+
+#navbar {
+  z-index: 1;
+  overflow: hidden;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  border-bottom: 1px solid lightgrey;
+  font-size: 16px;
+
+}
+.leftNavBarSticky{
+	width: 30%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.rightNavBarSticky{
+	width: 30%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+#stickyNavSignInBtn{
+	color: white;
+}
+#navbar a {
+  color: grey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+
+
+#navbar a.active {
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+.display{
+	display: none;
+}
