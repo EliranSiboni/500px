@@ -1,168 +1,174 @@
-
-.section2{
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-	border-bottom: 1px solid lightgrey;
-}
-.FlexParentStart{
-	width: 100%;
-	padding-top: 7rem;
-	display: flex;
-	justify-content: flex-start;
-	flex-wrap: wrap;
-	align-items: center;
-}
-.GlobalPic{
-	display: block;
-	width: 80%;
-	height: auto;
-	padding-left: 5rem;
-}
-.left{
-	width: 50%;
-}
-.right{
-	width: 50%;
-
-}
-h3{
-	width: 100%;
-	color: grey;
-	font-size: 2.5rem;
-	font-weight: 100;
-	text-align: flex-start;
+.section2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom: 1px solid lightgrey;
 }
 
-.DiscoverButtonDiv{
-	width: 100%;
-	padding-top: 5rem;
-}
-.disoverbutton{
-	background-color: white;
-	color: #0099e5;
-}
-.ParentEnd{
-	width: 100%;
-	padding-top: 7rem;
-	display: flex;
-	justify-content: flex-end;
-	flex-wrap: wrap;
-	align-items: center;
-	padding-left: 5rem;
-}
-.section2{
-	width: 100%;
-	padding-top: 5rem;
-	padding-bottom: 5rem;
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-	border-bottom: 1px solid lightgrey;
-	margin-bottom: 0;
-	padding-bottom: 0;
+.FlexParentStart {
+    width: 100%;
+    padding-top: 7rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
-.textbaloonsparent{
-width: 100%;
-padding-top: 5rem;
-padding-right: 5rem;
-padding-left: 5rem;
-display: flex;
-justify-content: space-between;
-padding-bottom: 10rem;
-flex-wrap: wrap;
+.GlobalPic {
+    display: block;
+    width: 80%;
+    height: auto;
+    padding-left: 5rem;
 }
-.textbaloonsitem{
-	width: 30%;
-	border:1px solid lightgrey;
+
+.left {
+    width: 50%;
+}
+
+.right {
+    width: 50%;
+}
+
+h3 {
+    width: 100%;
+    color: grey;
+    font-size: 2.5rem;
+    font-weight: 100;
+    text-align: flex-start;
+}
+
+.DiscoverButtonDiv {
+    width: 100%;
+    padding-top: 5rem;
+}
+
+.disoverbutton {
+    background-color: white;
+    color: #0099e5;
+}
+
+.ParentEnd {
+    width: 100%;
+    padding-top: 7rem;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 5rem;
+}
+
+.section2 {
+    width: 100%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.textbaloonsparent {
+    width: 100%;
+    padding-top: 5rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10rem;
+    flex-wrap: wrap;
+}
+
+.textbaloonsitem {
+    width: 30%;
+    border: 1px solid lightgrey;
     padding: 2rem;
     border-radius: 25px;
     color: grey;
     font-size: 1.5rem;
     align-items: center;
-
-
-}
-.textbaloonCredit{
-	width: 100%;
-	display: flex;
-	justify-content: flex-start;
-	flex-wrap: nowrap;
-	padding-top: 2rem;
-	align-items: center;
-
 }
 
-.iconPhotograferImgBaloon{
-	padding-left: 1rem;
-	padding-right: 1rem;
-	display: block;
-	width:15%;
-	height:15%;
-	border-radius: 100%;
-
-}
-.textbaloonCredit>span{
-	font-size: 1.2rem;
-}
-.textbaloonCredit>span>p{
-	font-size: 1rem;
+.textbaloonCredit {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    padding-top: 2rem;
+    align-items: center;
 }
 
-.ParentEnd2{
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	padding-bottom: 0;
-	padding-top: 10rem;
-	flex-wrap: wrap;
+.iconPhotograferImgBaloon {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: block;
+    width: 15%;
+    height: 15%;
+    border-radius: 100%;
+}
+
+.textbaloonCredit>span {
+    font-size: 1.2rem;
+}
+
+.textbaloonCredit>span>p {
+    font-size: 1rem;
+}
+
+.ParentEnd2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0;
+    padding-top: 10rem;
+    flex-wrap: wrap;
 }
 
 
-.OuterPaddingphone{
-	width: 80%;
-	display: flex;
-	justify-content: center;
-
+.OuterPaddingphone {
+    width: 80%;
+    display: flex;
+    justify-content: center;
 }
-.OuterPhone{
-	width: 100%;
-	height: 60rem;
-	border:2px solid grey;
-	border-bottom: none;
-	border-radius: 5rem;
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
 
+.OuterPhone {
+    width: 100%;
+    height: 60rem;
+    border: 2px solid grey;
+    border-bottom: none;
+    border-radius: 5rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
-.OuterPhone>p{
-	padding: 1rem;
-	padding-top: 3rem;
-	width: 100%;
-	position: relative;
-	text-align: center;
-}
-#PhoneDetails{
-	position: absolute;
-	font-size: 5rem;
-	top:-2rem;
-	left: 15rem;
-	color: grey;
-	border-bottom: 2px solid grey;
-	width: 5rem;
-	text-align: center;
-	padding-right: 1rem;
-}
-.insidePhone{
-	width: 80%;
-	padding: 4rem;
-	border:1px solid grey;
-	border-bottom: none;
-   	height: 45rem;
-   	background-image: url(http://assetcdn.500px.org/assets/apps/iphone_feed-2e28c0a3ffeffb2b4f90f5c5565dbbfd.jpg);
 
+.OuterPhone>p {
+    padding: 1rem;
+    padding-top: 3rem;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
 
+#PhoneDetails {
+    position: absolute;
+    font-size: 5rem;
+    top: -2rem;
+    left: 15rem;
+    color: grey;
+    border-bottom: 2px solid grey;
+    width: 5rem;
+    text-align: center;
+    padding-right: 1rem;
+}
+
+.insidePhone {
+    width: 80%;
+    padding: 4rem;
+    border: 1px solid grey;
+    border-bottom: none;
+    height: 45rem;
+    background-image: url(http://assetcdn.500px.org/assets/apps/iphone_feed-2e28c0a3ffeffb2b4f90f5c5565dbbfd.jpg);
 }

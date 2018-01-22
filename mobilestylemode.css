@@ -1,94 +1,96 @@
-
 @media screen and (max-width: 767px) {
-    .footerParentGrid{display: none}
-    .containerMobileFooter{display: block;}
-    .headerBar{display: none;}
-    .mobileHeaderBar{display: block;
+    .footerParentGrid {
+        display: none
+    }
+    .containerMobileFooter {
+        display: block;
+    }
+    .headerBar {
+        display: none;
+    }
+    .mobileHeaderBar {
+        display: block;
         display: flex;
-       justify-content: space-between;
-       align-items: center;}
-        .navSection1GridParent{
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navSection1GridParent {
         grid-template-columns: 30% 35% 35%;
-        }
-        #nonmobilescreen{
-            display: none;
-        }
-        .FlexParentStart{
-            justify-content: center;
-            margin-left: 0.3rem;
-            margin-right: 0.3rem;
-        }
-        .ParentEnd{
-            justify-content: center;
-            padding-left: 0;
-            margin-left: 0.3rem;
-            margin-right: 0.3rem;
-        }
-        .left{
-            width: 100%;
-        }
-        .right{
-            width: 100%;
-        }
-        #desktop{
-            display: none;
-        }
-        #mobile{
-            display: block;
-        }
-        ..textbaloonsparent{justify-content: center;}
-        .textbaloonsitem{
-            width: 100%;
-            margin-bottom: 5rem;
-        }
-
-        
-        .ParentEnd2{
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            padding-left: 0;
-            margin-left: 0.3rem;
-            margin-right: 0.3rem;
-            text-align: center;
-
-        }
-        .OuterPaddingphone{
-            width: 100%;
-        }
-        #joinusLastButton{
-            width: 40%;
-        }
-        footer{
-         background-size: contain;  
-         background-repeat: no-repeat;  
-
-         }
-         .left#mobile{
-            width: 100%;
-            padding-left: 10rem;
-            padding-right: 10rem;
-
-         } 
-         #PhoneDetails{
-            margin:0;
-            text-align: center;
-            padding-right: 0rem;
-            left: 6rem;
-             }
-         .insidePhone{
-            background-attachment: scroll;
-            background-size: cover;
-            background-position: center;
-         }
-         :hover .overlayGridPhoto{
-            display: none;
-         }
-         .navbarnonMobile{
-            display: none;
-         }
-
-     }
+    }
+    #nonmobilescreen {
+        display: none;
+    }
+    .FlexParentStart {
+        justify-content: center;
+        margin-left: 0.3rem;
+        margin-right: 0.3rem;
+    }
+    .ParentEnd {
+        justify-content: center;
+        padding-left: 0;
+        margin-left: 0.3rem;
+        margin-right: 0.3rem;
+    }
+    .left {
+        width: 100%;
+    }
+    .right {
+        width: 100%;
+    }
+    #desktop {
+        display: none;
+    }
+    #mobile {
+        display: block;
+    }
+    .textbaloonsparent {
+        justify-content: center;
+    }
+    .textbaloonsitem {
+        width: 100%;
+        margin-bottom: 5rem;
+    }
 
 
-
+    .ParentEnd2 {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-left: 0;
+        margin-left: 0.3rem;
+        margin-right: 0.3rem;
+        text-align: center;
+    }
+    .OuterPaddingphone {
+        width: 100%;
+    }
+    #joinusLastButton {
+        width: 40%;
+    }
+    footer {
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .left#mobile {
+        width: 100%;
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+    #PhoneDetails {
+        margin: 0;
+        text-align: center;
+        padding-right: 0rem;
+        left: 6rem;
+    }
+    .insidePhone {
+        background-attachment: scroll;
+        background-size: cover;
+        background-position: center;
+    }
+     :hover .overlayGridPhoto {
+        display: none;
+    }
+    .navbarnonMobile {
+        display: none;
+    }
+}
