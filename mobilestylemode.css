@@ -35,7 +35,10 @@
         width: 100%;
     }
     .right {
-        width: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     }
     #desktop {
         display: none;
