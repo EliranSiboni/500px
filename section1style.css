@@ -46,6 +46,7 @@ nav {
     background-color: white;
     border: none;
     color: #548dff;
+    font-size: 1.3rem;
 }
 
 .navGridSection1 {
@@ -73,7 +74,7 @@ nav {
 
 .GridPhotoParentsection1 {
     width: 100%;
-    margin-top: 5rem;
+    margin-top: 2rem;
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
     grid-template-rows: 400px 400px;

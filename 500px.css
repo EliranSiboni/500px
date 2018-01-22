@@ -18,7 +18,7 @@ header {
     background-size: cover;
     color: white;
     position: relative;
-    padding-bottom: 20rem;
+    padding-bottom: 10rem;
 }
 
 .headerBar {
@@ -93,7 +93,6 @@ button:hover {
 .headerHerf {
     text-decoration: none;
     color: white;
-    font-size: 1.5rem;
 }
 
 .headerHerf:hover {
@@ -102,6 +101,7 @@ button:hover {
 }
 
 .CopyrightAtribute {
+    width: 100%;
     display: flex;
     justify-content: flex-end;
     align-content: flex-end;
