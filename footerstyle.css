@@ -69,7 +69,12 @@ li>a:hover {
     display: none;
 }
 
-
+.insidePhone {
+    background-repeat: no-repeat;
+    background-size: initial;
+    background-position: 15rem;
+    background-attachment: fixed;
+}
 
 #mobile {
     display: none;

@@ -73,16 +73,18 @@ h3 {
 .textbaloonsparent {
     width: 100%;
     padding-top: 5rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-bottom: 10rem;
     flex-wrap: wrap;
 }
 
 .textbaloonsitem {
-    width: 25%;
+    width: 30%;
     border: 1px solid lightgrey;
-    padding: .5rem;
+    padding: 2rem;
     border-radius: 25px;
     color: grey;
     font-size: 1.5rem;
@@ -126,40 +128,47 @@ h3 {
 
 
 .OuterPaddingphone {
-    width: 60%;
+    width: 80%;
     display: flex;
     justify-content: center;
 }
 
 .OuterPhone {
     width: 100%;
-    height: 40rem;
+    height: 60rem;
     border: 2px solid grey;
     border-bottom: none;
     border-radius: 5rem;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.OuterPhone>p {
+    padding: 1rem;
+    padding-top: 3rem;
+    width: 100%;
     position: relative;
+    text-align: center;
 }
-.OuterPhone:before{
-    content:" . ";
+
+#PhoneDetails {
+    position: absolute;
     font-size: 5rem;
-    border-width: 3rem;
-    padding: 0;
-
+    top: -2rem;
+    left: 15rem;
+    color: grey;
+    border-bottom: 2px solid grey;
+    width: 5rem;
+    text-align: center;
+    padding-right: 1rem;
 }
-
 
 .insidePhone {
     width: 80%;
-    position: absolute;
-    top: 20%;
+    padding: 4rem;
     border: 1px solid grey;
     border-bottom: none;
-    height: 30rem;
+    height: 45rem;
     background-image: url(http://assetcdn.500px.org/assets/apps/iphone_feed-2e28c0a3ffeffb2b4f90f5c5565dbbfd.jpg);
-    background-repeat: no-repeat;
-    background-size: initial;
-    background-attachment: scroll;
 }
